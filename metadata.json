@@ -1,0 +1,7 @@
+{
+  "name": "Nazimz 10 — Fine Jewellery from Charminar",
+  "description": "Bespoke handcrafted jewellery, regal Hyderabadi jhumkas, chandbalis, and heritage bridal ornaments from the heart of Charminar, Hyderabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

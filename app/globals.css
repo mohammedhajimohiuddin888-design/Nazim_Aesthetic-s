@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  :root {
+    --bg-ivory: #FAF8F5;
+    --bg-cream: #F5F1EA;
+    --gold-primary: #C5A059;
+    --gold-dark: #8F6E2B;
+    --gold-light: #E8D4B4;
+    --emerald-accent: #1C523E;
+    --ruby-accent: #8E2333;
+    --charcoal-primary: #1C1917;
+    --charcoal-muted: #57534E;
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #1C1917;
+    font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif), 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Subtle gold hairline styling */
+.border-gold-subtle {
+  border-color: rgba(197, 160, 89, 0.22);
+}
+
+.border-gold-medium {
+  border-color: rgba(197, 160, 89, 0.45);
+}
+
+.bg-ivory-light {
+  background-color: #FAF8F5;
+}
+
+.bg-cream-soft {
+  background-color: #F6F3EC;
+}
+
+.bg-cream-card {
+  background-color: #FCFAF7;
+}
+
+.text-gold-accent {
+  color: #B88E3E;
+}
+
+.text-ruby-subtle {
+  color: #8E2333;
+}
+
+.text-emerald-subtle {
+  color: #1C523E;
+}
+
+/* Refined glassmorphism header */
+.header-glass {
+  background: rgba(250, 248, 245, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
